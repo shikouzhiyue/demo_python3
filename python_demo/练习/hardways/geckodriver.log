@@ -1,0 +1,18 @@
+1511770744336	geckodriver	INFO	Listening on 127.0.0.1:64604
+1511770745865	mozprofile::profile	INFO	Using profile path C:\Users\十口之月\AppData\Local\Temp\rust_mozprofile.9awEytdFxKJ5
+1511770745875	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1511770745998	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64615
+1511770752274	Marionette	INFO	Listening on port 64615
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeError: this._recipeManager is null
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1511775235722	geckodriver	INFO	Listening on 127.0.0.1:52004
+1511775237768	mozprofile::profile	INFO	Using profile path C:\Users\十口之月\AppData\Local\Temp\rust_mozprofile.4kMl5WelcN3Z
+1511775237768	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1511775237783	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52023
+1511775240458	Marionette	INFO	Listening on port 52023
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeError: this._recipeManager is null

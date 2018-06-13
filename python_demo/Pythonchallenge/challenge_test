@@ -1,0 +1,13 @@
+#!usr/bin/python
+# -*- coding:utf-8 -*-
+import difflib
+
+a = '89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00   89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00'
+b = '75 55 14 aa 9c a8 69 a5 86 1a 86 a0 00 28 e8 94 72 8b   75 55 16 2e b2 23 05 d5 52 9b 44 cb 8b 3b 10 a0 e5 ee'
+left = []
+right = []
+left.append(a[:53])
+right.append(a[56:])
+print(left, right)
+diff = list(difflib.ndiff(left,right))
+print(diff)
